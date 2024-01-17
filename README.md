@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Introduction
 
-## Getting Started
+Welcome to the SpaceX Dashboard, an application built using Next.js that offers a comprehensive overview of SpaceX launches and rockets. This platform serves as a valuable resource for enthusiasts, providing detailed information about SpaceX missions and the impressive array of rockets utilized by SpaceX in its groundbreaking space exploration endeavors.
 
-First, run the development server:
+## Application Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Launch Details:** Get in-depth insights into each SpaceX launch, including mission objectives, launch dates, and outcomes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Rocket Information:** Explore a comprehensive database of SpaceX rockets, featuring specifications, development history, and notable missions each rocket has undertaken.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **User-Friendly Interface:** The application boasts a user-friendly interface, making it easy to navigate and discover information about SpaceX's achievements in space exploration.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technology Stack
 
-## Learn More
+The SpaceX Dashboard leverages cutting-edge technologies:
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js:** A React framework that enhances the developer experience and facilitates the creation of fast and optimized web applications.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **TypeScript:** The use of TypeScript adds static typing to the development process, improving code quality and maintainability.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Redux:** For efficient state management, Redux is employed to ensure a seamless user experience.
 
-## Deploy on Vercel
+## Deployed Application
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Access the deployed SpaceX Dashboard at: [https://space-x-dashboard-one.vercel.app/](https://space-x-dashboard-one.vercel.app/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Running the Project Locally
+
+To run the application on your personal computer, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/khushj007/SpaceX_Dashboard.git
+   ```
+
+2. Launch the project in the development environment:
+
+   ```bash
+   npm run dev
+   ```
+
+3. Build a production-ready file:
+
+   ```bash
+   npm run build
+   ```
+
+4. Run the production build:
+
+   ```bash
+   npm run start
+   ```
+
+Feel free to explore the fascinating world of SpaceX with the SpaceX Dashboard!
